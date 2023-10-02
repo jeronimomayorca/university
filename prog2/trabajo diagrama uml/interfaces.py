@@ -49,3 +49,28 @@ class Alquiler:
 
     def calcular_costos(self) -> float:
         ...
+
+
+@dataclass
+class Master:
+    socios: list[Socio]
+    instalaciones: list[InstalacionDeportiva]
+    alquileres: list[Alquiler]
+
+    def registrar_socio(self):
+        ...
+
+    def registrarInstalacion(self, instalacion: InstalacionDeportiva) -> None:
+        ...
+
+    def registrarAlquiler(self, alquiler: Alquiler) -> None:
+        ...
+
+    def consultarInstalacionPorNumero(self, numero: int) -> InstalacionDeportiva:
+        ...
+
+    def consultarAlquileresDeSocio(self, socio: Socio) -> list[Alquiler]:
+        ...
+
+    def verificarDisponibilidad(self, instalacion: InstalacionDeportiva, fecha: datetime, hora_inicio: datetime, hora_fin: datetime) -> bool:
+        ...
