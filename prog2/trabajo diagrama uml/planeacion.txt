@@ -1,0 +1,35 @@
+¬	PLANIFICACION DEL PROYECTO:
+
+1. Análisis de Requerimientos:
+Identificar y entender todos los requerimientos de la aplicación es crucial. A partir del enunciado, podemos identificar varios requerimientos funcionales y no funcionales.
+Requerimientos Funcionales:
+Registro de nuevas instalaciones deportivas.
+Consulta de una instalación deportiva por número.
+Registro de nuevos socios.
+Alquiler de una instalación por un socio.
+Consulta de alquileres realizados por un socio.
+Verificación de disponibilidad de la instalación en la fecha y rango horario solicitado.
+Cálculo del valor del alquiler basado en la duración y tipo de instalación.
+Requerimientos No Funcionales:
+Interfaz de usuario amigable.
+Rendimiento de la aplicación.
+Seguridad en el manejo de la información de los socios e instalaciones.
+2. Planificación del Proyecto:
+Desarrollar un cronograma detallado, asignar recursos y definir entregables.
+3. Diseño:
+Diagrama de Clases:
+A continuación se propone una estructura básica de diagrama de clases:
+4. Desarrollo:
+Iniciar el desarrollo según la planificación y el diseño realizados. Es fundamental seguir una metodología de desarrollo que permita iteraciones y revisiones constantes para asegurar que el producto final cumpla con los requerimientos.
+5. Pruebas:
+Realizar pruebas de funcionamiento, rendimiento, seguridad y usabilidad para garantizar que la aplicación cumple con los estándares y expectativas definidas.
+
+
+6. Despliegue:
+Una vez que la aplicación ha pasado las fases de prueba satisfactoriamente, proceder con el despliegue de la misma en el ambiente de producción.
+7. Mantenimiento y Mejoras:
+Monitorear el desempeño de la aplicación, resolver problemas surgidos y trabajar en mejoras y nuevas funcionalidades según el feedback de los usuarios.
+Estas etapas ayudarán a estructurar el desarrollo del software de manera ordenada y eficaz, asegurando que se cumplan los objetivos del proyecto.
+
+PRESUPUESTO: $30.000
+
