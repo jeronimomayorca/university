@@ -1,3 +1,3 @@
 ﻿# University
 
- In this repo resides the code of exercises made in class
+This repository contains the code for exercises completed in class by me.
