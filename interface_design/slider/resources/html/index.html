@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script defer type="module" src="../js/index.js"></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section id="gallery">
+      <div class="gallery-container">
+        <figure class="gallery-item">
+          <img src="../images/1.png" alt="Imagen 1" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/2.png" alt="Imagen 2" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/3.png" alt="Imagen 3" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/11.jpg" alt="Imagen 4" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/5.png" alt="Imagen 5" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/6.png" alt="Imagen 6" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/7.png" alt="Imagen 7" />
+        </figure>
+        <figure class="gallery-item">
+          <img src="../images/8.png" alt="Imagen 8" />
+        </figure>
+      </div>
+      <nav class="gallery-navigation">
+        <button class="nav-button prev-button"><img
+            src="../images/arrow_left.png"></button>
+        <button class="nav-button next-button"><img
+            src="../images/arrow_right.png"></button>
+      </nav>
+    </section>
+
+    <script src="../js/index.js"></script>
+    <script>
+      let currentIndex = 0;
+
+        document.querySelector(".prev-button").addEventListener("click", () => {
+            navigate(-1);
+        });
+
+        document.querySelector(".next-button").addEventListener("click", () => {
+            navigate(1);
+        });
+
+        function navigate(direction) {
+            const galleryContainer = document.querySelector(".gallery-container");
+            const totalImages = document.querySelectorAll(".gallery-item").length;
+
+            currentIndex = (currentIndex + direction + totalImages) % totalImages;
+            const offset = -currentIndex * 100;
+
+            galleryContainer.style.transform = `translateX(${offset}%)`;
+        }
+
+
+        //START AUTOPLAY
+        let autoplayInterval = null;
+
+        function startAutoplay(interval) {
+            stopAutoplay(); // Detiene cualquier autoplay anterior para evitar múltiples intervalos.
+            autoplayInterval = setInterval(() => {
+                navigate(1); // Navega a la siguiente imagen cada intervalo de tiempo.
+            }, interval);
+        }
+
+
+        //STOP AUTOPLAY
+        function stopAutoplay() {
+            clearInterval(autoplayInterval);
+        }
+    </script>
+  </body>
+</html>

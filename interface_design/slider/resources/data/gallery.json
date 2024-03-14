@@ -1,0 +1,62 @@
+[
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Shooting Stars: Dancing Lights in the Sky",
+        "description": "Shooting stars are meteoroids that, upon entering the Earth's atmosphere, heat up and emit light, creating spectacular luminous streaks across the night sky."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "The Milky Way: Our Spiral Galaxy",
+        "description": "The Milky Way, our galaxy, is a vast disc of stars, dust, and gas, with an elegant spiral design, hosting billions of stars, including our Sun."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Black Holes: Cosmic Devourers",
+        "description": "Black holes are regions of space where gravity is so strong that not even light can escape, hiding mysteries about the fabric of the universe."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Polar Auroras: Ballet of Lights",
+        "description": "Polar auroras are dazzling light shows that occur when charged particles from the Sun collide with the Earth's atmosphere near the magnetic poles."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Mars' Grand Canyon: A Solar System Wonder",
+        "description": "Valles Marineris, the grand canyon of Mars, is a canyon system stretching about 4,000 km, showcasing the planet's past geological activity."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Saturn's Rings: Cosmic Jewels",
+        "description": "Saturn's rings, made mainly of ice and rock, are one of the most impressive and beautiful planetary ring systems in the solar system."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "The Big Bang: Origin of the Universe",
+        "description": "The Big Bang is the scientific theory that describes the explosive beginning of the universe, marking the start of time, space, and all matter."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Exoplanets: Distant Worlds",
+        "description": "Exoplanets are planets orbiting stars outside our solar system, offering fascinating possibilities of habitable worlds and unique planetary systems."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "The Universe's Expansion: Cosmic Growth",
+        "description": "The universe is continuously expanding since the Big Bang, with galaxies moving away from each other in the vast cosmic ocean."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "Supernovas: Cosmic Fireworks",
+        "description": "Supernovas are stellar explosions marking the end of a star's life, releasing vast amounts of energy and chemical elements into space."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "The Greenhouse Effect on Earth: Global Warming",
+        "description": "The greenhouse effect, caused by gases like CO2, traps heat in the Earth's atmosphere, crucial for life but also contributing to global warming."
+    },
+    {
+        "image": "./resources/images/1.jpg",
+        "title": "The Moon: Earth's Companion",
+        "description": "The Moon, Earth's only natural satellite, plays a vital role in tides and climate stability, besides being the focus of numerous space missions."
+    }
+]
